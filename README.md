@@ -4,3 +4,7 @@
 
 
 ```docker run -d --name qdrant-p 6333:6333-p 6334:6334 -e QDRANT__SERVICE__API_KEY="test" -v $(pwd)/qdrant_storage:/qdrant/storage:z qdrant/qdrant```
+
+
+
+```docker run -it -d  --name n8n  -p 5678:5678  -e GENERIC_TIMEZONE="Asia/Almaty"  -e TZ="Asia/Almaty"  -e N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS=true  -e N8N_RUNNERS_ENABLED=true  -v n8n_data:/home/node/.n8n  docker.n8n.io/n8nio/n8n```
