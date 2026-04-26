@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "content": "Для деплоя приложения в Kubernetes используйте команду kubectl apply -f deployment.yaml. Убедитесь, что контекст настроен правильно.",
+    "metadata": {
+      "source": "internal_wiki",
+      "category": "devops",
+      "priority": "high"
+    }
+  },
+  {
+    "id": 2,
+    "content": "В случае ошибки 'ImagePullBackOff' проверьте наличие secret для доступа к registry и корректность пути к образу.",
+    "metadata": {
+      "source": "troubleshooting_guide",
+      "category": "kubernetes",
+      "author": "admin"
+    }
+  }
+]
